@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TimezonePicker_Example' do
+  pod 'TimezonePicker', :path => '../'
+
+  target 'TimezonePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
