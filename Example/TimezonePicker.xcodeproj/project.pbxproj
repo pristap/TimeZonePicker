@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		417879BD1D74638D0045CAC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417879BC1D74638D0045CAC4 /* Main.storyboard */; };
 		417879BF1D7463BA0045CAC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417879BE1D7463BA0045CAC4 /* ViewController.swift */; };
+		417879F71D746CD10045CAC4 /* TimezoneExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417879ED1D746CD10045CAC4 /* TimezoneExtensions.swift */; };
+		417879F81D746CD10045CAC4 /* TimezonePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417879EF1D746CD10045CAC4 /* TimezonePickerCell.xib */; };
+		417879F91D746CD10045CAC4 /* TimezonePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417879F01D746CD10045CAC4 /* TimezonePickerViewController.xib */; };
+		417879FA1D746CD10045CAC4 /* TimezonePickerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417879F21D746CD10045CAC4 /* TimezonePickerProtocol.swift */; };
+		417879FB1D746CD10045CAC4 /* TimezonePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417879F41D746CD10045CAC4 /* TimezonePickerViewController.swift */; };
+		417879FC1D746CD10045CAC4 /* TimezonePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417879F61D746CD10045CAC4 /* TimezonePickerCell.swift */; };
 		44C281BB4C86B75FAB21A728 /* Pods_TimezonePicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3636E67AE6D2E27635FF228A /* Pods_TimezonePicker_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -34,6 +40,18 @@
 		3636E67AE6D2E27635FF228A /* Pods_TimezonePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimezonePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		417879BC1D74638D0045CAC4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		417879BE1D7463BA0045CAC4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		417879E21D746CA20045CAC4 /* TimezoneExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimezoneExtensions.swift; sourceTree = "<group>"; };
+		417879E41D746CA20045CAC4 /* TimezonePickerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimezonePickerCell.xib; sourceTree = "<group>"; };
+		417879E51D746CA20045CAC4 /* TimezonePickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimezonePickerViewController.xib; sourceTree = "<group>"; };
+		417879E71D746CA20045CAC4 /* TimezonePickerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimezonePickerProtocol.swift; sourceTree = "<group>"; };
+		417879E91D746CA20045CAC4 /* TimezonePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimezonePickerViewController.swift; sourceTree = "<group>"; };
+		417879EB1D746CA20045CAC4 /* TimezonePickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimezonePickerCell.swift; sourceTree = "<group>"; };
+		417879ED1D746CD10045CAC4 /* TimezoneExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimezoneExtensions.swift; sourceTree = "<group>"; };
+		417879EF1D746CD10045CAC4 /* TimezonePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimezonePickerCell.xib; sourceTree = "<group>"; };
+		417879F01D746CD10045CAC4 /* TimezonePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimezonePickerViewController.xib; sourceTree = "<group>"; };
+		417879F21D746CD10045CAC4 /* TimezonePickerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimezonePickerProtocol.swift; sourceTree = "<group>"; };
+		417879F41D746CD10045CAC4 /* TimezonePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimezonePickerViewController.swift; sourceTree = "<group>"; };
+		417879F61D746CD10045CAC4 /* TimezonePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimezonePickerCell.swift; sourceTree = "<group>"; };
 		43DA9437077EA770EA4025B8 /* Pods-TimezonePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimezonePicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimezonePicker_Example/Pods-TimezonePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		47E975191FF8B88A5BBFCA95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TimezonePicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimezonePicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,15 +90,121 @@
 		03C6878099A66B759D6A5AA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				417879E01D746CA20045CAC4 /* TimezonePicker */,
 				3636E67AE6D2E27635FF228A /* Pods_TimezonePicker_Example.framework */,
 				8666FD7E0B37B12632C49AFC /* Pods_TimezonePicker_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		417879E01D746CA20045CAC4 /* TimezonePicker */ = {
+			isa = PBXGroup;
+			children = (
+				417879E11D746CA20045CAC4 /* Extensions */,
+				417879E31D746CA20045CAC4 /* Nibs */,
+				417879E61D746CA20045CAC4 /* Protocols */,
+				417879E81D746CA20045CAC4 /* ViewControllers */,
+				417879EA1D746CA20045CAC4 /* Views */,
+			);
+			name = TimezonePicker;
+			path = ../TimezonePicker;
+			sourceTree = "<group>";
+		};
+		417879E11D746CA20045CAC4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				417879E21D746CA20045CAC4 /* TimezoneExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		417879E31D746CA20045CAC4 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				417879E41D746CA20045CAC4 /* TimezonePickerCell.xib */,
+				417879E51D746CA20045CAC4 /* TimezonePickerViewController.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		417879E61D746CA20045CAC4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				417879E71D746CA20045CAC4 /* TimezonePickerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		417879E81D746CA20045CAC4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				417879E91D746CA20045CAC4 /* TimezonePickerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		417879EA1D746CA20045CAC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				417879EB1D746CA20045CAC4 /* TimezonePickerCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		417879EC1D746CD10045CAC4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				417879ED1D746CD10045CAC4 /* TimezoneExtensions.swift */,
+			);
+			name = Extensions;
+			path = ../TimezonePicker/Extensions;
+			sourceTree = "<group>";
+		};
+		417879EE1D746CD10045CAC4 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				417879EF1D746CD10045CAC4 /* TimezonePickerCell.xib */,
+				417879F01D746CD10045CAC4 /* TimezonePickerViewController.xib */,
+			);
+			name = Nibs;
+			path = ../TimezonePicker/Nibs;
+			sourceTree = "<group>";
+		};
+		417879F11D746CD10045CAC4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				417879F21D746CD10045CAC4 /* TimezonePickerProtocol.swift */,
+			);
+			name = Protocols;
+			path = ../TimezonePicker/Protocols;
+			sourceTree = "<group>";
+		};
+		417879F31D746CD10045CAC4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				417879F41D746CD10045CAC4 /* TimezonePickerViewController.swift */,
+			);
+			name = ViewControllers;
+			path = ../TimezonePicker/ViewControllers;
+			sourceTree = "<group>";
+		};
+		417879F51D746CD10045CAC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				417879F61D746CD10045CAC4 /* TimezonePickerCell.swift */,
+			);
+			name = Views;
+			path = ../TimezonePicker/Views;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				417879EC1D746CD10045CAC4 /* Extensions */,
+				417879EE1D746CD10045CAC4 /* Nibs */,
+				417879F11D746CD10045CAC4 /* Protocols */,
+				417879F31D746CD10045CAC4 /* ViewControllers */,
+				417879F51D746CD10045CAC4 /* Views */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for TimezonePicker */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -246,7 +370,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417879F81D746CD10045CAC4 /* TimezonePickerCell.xib in Resources */,
 				417879BD1D74638D0045CAC4 /* Main.storyboard in Resources */,
+				417879F91D746CD10045CAC4 /* TimezonePickerViewController.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -360,7 +486,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				417879BF1D7463BA0045CAC4 /* ViewController.swift in Sources */,
+				417879F71D746CD10045CAC4 /* TimezoneExtensions.swift in Sources */,
+				417879FC1D746CD10045CAC4 /* TimezonePickerCell.swift in Sources */,
+				417879FA1D746CD10045CAC4 /* TimezonePickerProtocol.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				417879FB1D746CD10045CAC4 /* TimezonePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
