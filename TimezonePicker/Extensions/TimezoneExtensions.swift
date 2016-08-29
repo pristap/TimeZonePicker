@@ -27,19 +27,22 @@ extension NSTimeZone {
         }
     }
     
-    var usLocalizedName: String {
-        get {
-          
-            let localeIdentifier = "en_US"
-            return self.localizedName(NSTimeZoneNameStyle.Generic, locale: NSLocale(localeIdentifier: localeIdentifier))!
-        }
+
+    
+    func localizedName(localeIdentifier: String) ->  String {
+        return self.localizedName(NSTimeZoneNameStyle.Generic, locale: NSLocale(localeIdentifier: localeIdentifier))!
     }
 }
 
 extension UIViewController {
-    func presentTimezonePicker() {
+    func presentTimezonePicker(localeIdentifier: String?) {
         if self is TimeZonePickerDelegate {
-
+            let vc = TimezonePickerViewController.fromNib()
+            vc.delegate = self as? TimeZonePickerDelegate
+            if localeIdentifier != nil {
+                vc.locale = localeIdentifier!
+            }
+            self.presentViewController(vc, animated: true, completion: nil)
         }
     }
 }

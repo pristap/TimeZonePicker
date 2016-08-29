@@ -22,6 +22,8 @@ public class TimezonePickerViewController: UIViewController, UITableViewDelegate
     var currentTimeZoneList = [NSTimeZone?]()
     var filteredTimeZoneList = [NSTimeZone?]()
     
+    var locale = "en_US"
+    
     var searchActive : Bool = false
     weak public var delegate: TimeZonePickerDelegate?
     
@@ -79,14 +81,14 @@ public class TimezonePickerViewController: UIViewController, UITableViewDelegate
         
         let knownTimezoneNames = NSTimeZone.knownTimeZoneNames()
         var timezones = knownTimezoneNames.map { NSTimeZone(name: $0) }
-        var localizedNames = Set(knownTimezoneNames.map { NSTimeZone(name:$0)!.usLocalizedName })
+        var localizedNames = Set(knownTimezoneNames.map { NSTimeZone(name:$0)!.localizedName(locale) })
         
         timezones.sortInPlace({$0!.secondsFromGMT < $1!.secondsFromGMT})
         
         
         let uniqueTimezones = timezones.filter {
             
-            let local = $0!.usLocalizedName
+            let local = $0!.localizedName(locale)
             
             if localizedNames.contains(local) {
                 
@@ -129,10 +131,10 @@ public class TimezonePickerViewController: UIViewController, UITableViewDelegate
         let cell = tableView.dequeueReusableCellWithIdentifier("TimezoneCell") as! TimezonePickerCell
         
             if searchActive {
-                cell.tzNameLabel.text = self.filteredTimeZoneList[indexPath.row]?.usLocalizedName
+                cell.tzNameLabel.text = self.filteredTimeZoneList[indexPath.row]?.localizedName(locale)
             }
             else {
-                cell.tzNameLabel.text = self.currentTimeZoneList[indexPath.row]?.usLocalizedName
+                cell.tzNameLabel.text = self.currentTimeZoneList[indexPath.row]?.localizedName(locale)
             }
 
         if searchActive {
@@ -157,7 +159,7 @@ public class TimezonePickerViewController: UIViewController, UITableViewDelegate
         }
         
 
-        displayText = timezone.usLocalizedName
+        displayText = timezone.localizedName(locale)
 
         
         self.searchBar.resignFirstResponder()
@@ -179,7 +181,7 @@ public class TimezonePickerViewController: UIViewController, UITableViewDelegate
         
         filteredTimeZoneList = currentTimeZoneList.filter({ (timezone) -> Bool in
           
-            let tmp: NSString! = (timezone?.usLocalizedName)!
+            let tmp: NSString! = (timezone?.localizedName(locale))!
 
             let range = tmp.rangeOfString(searchText, options: NSStringCompareOptions.CaseInsensitiveSearch)
             

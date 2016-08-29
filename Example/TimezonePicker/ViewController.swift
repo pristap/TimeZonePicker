@@ -15,10 +15,7 @@ class ViewController: UIViewController, TimeZonePickerDelegate {
     @IBOutlet weak var lblLocalTime: UILabel!
     @IBOutlet weak var selectTimezoneButton: UIButton!
     @IBAction func selectTimezoneButtonClicked(sender: AnyObject) {
-        let vc = TimezonePickerViewController.fromNib()
-        vc.delegate = self
-        self.navigationController?.presentViewController(vc, animated: true, completion: nil)
-        
+        self.presentTimezonePicker("en")
     }
     
     struct CustomTimezone {
