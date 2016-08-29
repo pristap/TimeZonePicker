@@ -44,10 +44,11 @@ public class TimezonePickerViewController: UIViewController, UITableViewDelegate
     
     
     func makeNavigationBar(){
-
-        let navigationBar = UINavigationBar(frame: CGRectMake(0, 0, self.view.frame.size.width, 64)) // Offset by 20 pixels vertically to take the status bar into account
+    
+        let screenWidth = UIScreen.mainScreen().bounds.width
+        let navigationBar = UINavigationBar(frame: CGRectMake(0, 0, screenWidth, 64)) // Offset by 20 pixels vertically to take the status bar into account
         
-        navigationBar.backgroundColor = UIColor.whiteColor()
+        navigationBar.backgroundColor = UIColor.clearColor()
         navigationBar.delegate = self
         
         // Create a navigation item with a title

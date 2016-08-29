@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 
 //MARK: - Extensions -
 extension NSTimeZone {
@@ -32,6 +32,14 @@ extension NSTimeZone {
           
             let localeIdentifier = "en_US"
             return self.localizedName(NSTimeZoneNameStyle.Generic, locale: NSLocale(localeIdentifier: localeIdentifier))!
+        }
+    }
+}
+
+extension UIViewController {
+    func presentTimezonePicker() {
+        if self is TimeZonePickerDelegate {
+
         }
     }
 }
