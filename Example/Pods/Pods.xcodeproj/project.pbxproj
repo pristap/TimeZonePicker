@@ -7,57 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03354A561D9BEACD85009C6FF00003A8 /* Pods-TimezonePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AE155415BE732E10D37696E946FCE7 /* Pods-TimezonePicker_Example-dummy.m */; };
-		0375780F9F1C03639AB9420017ACCE54 /* TimezonePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B1EDC0EC5841B26C2B9F8192C7D3BAE /* TimezonePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EBB7149BA9BBAA18D8E31650911AC34 /* TimezonePickerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F80A04641A103DA2357FCC07D38795 /* TimezonePickerProtocol.swift */; };
-		133276108C6D38C007AF888CB506A78C /* TimezoneExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE500E7079FF311B112F799D684B781F /* TimezoneExtensions.swift */; };
-		15A85D64A5FEB24732D056D2C5A5BE2B /* Pods-TimezonePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B606AFE511CBE427E8CDD2554E0A9D3F /* Pods-TimezonePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		407D372F43DD8CAE8C426EE5B10A4E9C /* TimezonePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432BC0F442C69CF15CBD43E8E14F3941 /* TimezonePickerCell.swift */; };
-		486648A636FAB8D6604249C7F9ED3F56 /* TimezonePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B295C47C5F6E2202DD19A01F9B522 /* TimezonePickerViewController.swift */; };
-		52B7C15EC7B18B3D78F985CFAE054502 /* TimezonePickerViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 5A5CE72A8400DB3725318BA2B25B178E /* TimezonePickerViewController.xib */; };
-		5794C60A3B573D9F8EF53F11BD94A801 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		63DCCE013959A60077C990A9801CBD96 /* Pods-TimezonePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F45F1908757381A5FC3C5079687519 /* Pods-TimezonePicker_Tests-dummy.m */; };
-		6A253F42E4035D2812981BD0A81BA647 /* TimezonePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB89B7D39435187F2C540B6371C9FAA /* TimezonePicker-dummy.m */; };
-		71EB55D3EF3577893609C5A56B59CBD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		AD72F4B9B4DE4EA9DCF0968C16C4E6A1 /* TimezonePickerCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 15BA997531C4141CF0EB6FACDEB2E34B /* TimezonePickerCell.xib */; };
-		E0FA5BD7370497D824C218A64D47455A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		FA7777B53B65CCCA13FE05C858796D5E /* Pods-TimezonePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8099A8F3D61DEA67E85FA32EB8793E0 /* Pods-TimezonePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FBEE8D1095ACDA1736912E2A2913354 /* TimezonePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17631ED7E62EEB153AE1248ACE74E0D7 /* TimezonePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B69DFB7E91B5DB5C99F917130E3DE88 /* TimezonePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D68935E1CE16CD22C207BFB67F275459 /* TimezonePicker-dummy.m */; };
+		40FF77F9AE37216455A83C1A27330D32 /* TimezonePickerViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = A2931F2C9606E59256BA42700ED676E4 /* TimezonePickerViewController.xib */; };
+		63E2B2B9243B8D3F154287A39670B610 /* TimezonePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2557F6394143002F7738E90F47AA59 /* TimezonePickerCell.swift */; };
+		7FC8AA60A6BA0A5D2A79F3C706EF5DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		94BF3CBB90F245D448AA858E47F75708 /* TimezonePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3159A74E1A8B75315AC7C544F4BB786F /* TimezonePickerViewController.swift */; };
+		A6AC7C9EC5B83F74C4134268B4D2EC03 /* Pods-TimezonePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F45F1908757381A5FC3C5079687519 /* Pods-TimezonePicker_Tests-dummy.m */; };
+		A99B1993B62344D72AC8DAC7837F18B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AB1F7ECA96DA83060245CF0C81EC0AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B3962FD00AF355BC824F6187D2D4A39B /* Pods-TimezonePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B606AFE511CBE427E8CDD2554E0A9D3F /* Pods-TimezonePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD0F2105B10A7135E51E4457FDEE39B3 /* Pods-TimezonePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AE155415BE732E10D37696E946FCE7 /* Pods-TimezonePicker_Example-dummy.m */; };
+		C3460F145C81109B9F2577134EFF86D0 /* TimezonePickerCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1495C98FBE003016CBFA8AEC29028BD9 /* TimezonePickerCell.xib */; };
+		CC5140295C05E0672253D9215DB602A5 /* TimezonePickerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D417CD2247559F443562F9757B312C1C /* TimezonePickerProtocol.swift */; };
+		D93E2EC23BDA542DD72B8E3D2B90077D /* Pods-TimezonePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8099A8F3D61DEA67E85FA32EB8793E0 /* Pods-TimezonePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0DC8FE25E555C67B80043F5F18C9C5A /* TimezoneExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A90E2A4994EB5D0E461CCB66E096561 /* TimezoneExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5508BBB41CF2B8F74A8326558A5AC19F /* PBXContainerItemProxy */ = {
+		96E86F29BDE2CCFFD8D56F62C91F8A18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 26E0DE74A09CED4D8E914F69438B6205;
+			remoteGlobalIDString = 285643B10F03300859D6CEE70F2A96D6;
 			remoteInfo = TimezonePicker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15BA997531C4141CF0EB6FACDEB2E34B /* TimezonePickerCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TimezonePickerCell.xib; sourceTree = "<group>"; };
+		1495C98FBE003016CBFA8AEC29028BD9 /* TimezonePickerCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TimezonePickerCell.xib; sourceTree = "<group>"; };
+		17631ED7E62EEB153AE1248ACE74E0D7 /* TimezonePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimezonePicker-umbrella.h"; sourceTree = "<group>"; };
+		21F59442A795F1E187D6902651C80579 /* TimezonePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TimezonePicker.modulemap; sourceTree = "<group>"; };
 		2C797995849D0C21F685588DFD72E6DA /* Pods-TimezonePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimezonePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2D2557F6394143002F7738E90F47AA59 /* TimezonePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimezonePickerCell.swift; sourceTree = "<group>"; };
 		2D8745969F537283E64716FEAB5E3B59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		301B295C47C5F6E2202DD19A01F9B522 /* TimezonePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimezonePickerViewController.swift; sourceTree = "<group>"; };
-		3B1EDC0EC5841B26C2B9F8192C7D3BAE /* TimezonePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimezonePicker-umbrella.h"; sourceTree = "<group>"; };
-		432BC0F442C69CF15CBD43E8E14F3941 /* TimezonePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimezonePickerCell.swift; sourceTree = "<group>"; };
+		3159A74E1A8B75315AC7C544F4BB786F /* TimezonePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimezonePickerViewController.swift; sourceTree = "<group>"; };
 		46D6CEEA1B22E169AE4E040F721E3F8E /* Pods-TimezonePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimezonePicker_Example-resources.sh"; sourceTree = "<group>"; };
 		4B60174EEE75388ADC93E07FA2FE6D9D /* Pods-TimezonePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimezonePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		54381766C369950EBCF1C5E300BF45ED /* Pods-TimezonePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimezonePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		582E903743C706C18DC9F19146A0BAFF /* Pods-TimezonePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimezonePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5A5CE72A8400DB3725318BA2B25B178E /* TimezonePickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TimezonePickerViewController.xib; sourceTree = "<group>"; };
-		6849C71FF6736D94681645B664BE537B /* TimezonePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TimezonePicker.modulemap; sourceTree = "<group>"; };
-		763E24562383171407B95A8350BA54CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A90E2A4994EB5D0E461CCB66E096561 /* TimezoneExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimezoneExtensions.swift; sourceTree = "<group>"; };
 		7FAD19B5B8FB0A0B51B40EC16E2CD09C /* Pods-TimezonePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimezonePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8157CED2B67EECDCB1CC143B722E3AF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82AE155415BE732E10D37696E946FCE7 /* Pods-TimezonePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimezonePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		937EC6C82647506209B008DC95D7E8EF /* TimezonePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimezonePicker.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93F80A04641A103DA2357FCC07D38795 /* TimezonePickerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimezonePickerProtocol.swift; sourceTree = "<group>"; };
 		9AA5321CCE08031CCD7707D2DDFE55E0 /* Pods-TimezonePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimezonePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9E0A8B722AD38C39B3CBA38C390C0B01 /* Pods_TimezonePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimezonePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA53BB96831E9843E1060FE9B85E615D /* TimezonePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimezonePicker-prefix.pch"; sourceTree = "<group>"; };
-		ADB89B7D39435187F2C540B6371C9FAA /* TimezonePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimezonePicker-dummy.m"; sourceTree = "<group>"; };
-		AE500E7079FF311B112F799D684B781F /* TimezoneExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimezoneExtensions.swift; sourceTree = "<group>"; };
+		A2931F2C9606E59256BA42700ED676E4 /* TimezonePickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TimezonePickerViewController.xib; sourceTree = "<group>"; };
 		AF61909BABCAD753A61FE911EE37E651 /* Pods-TimezonePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimezonePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B027EDB9912EE0A7775901A8089A62D0 /* TimezonePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimezonePicker-prefix.pch"; sourceTree = "<group>"; };
 		B606AFE511CBE427E8CDD2554E0A9D3F /* Pods-TimezonePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimezonePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BA749FC419DFC06CA97B8B85E4F286B2 /* Pods-TimezonePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimezonePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BC785CE1590CEAD73F7991EBA97A36BA /* Pods-TimezonePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimezonePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -65,8 +64,9 @@
 		CAC04C7997EDF9FD684D77BAFE80A391 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB2B711B581B528B1291BC0C8C2FB2E2 /* Pods-TimezonePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimezonePicker_Tests.modulemap"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D417CD2247559F443562F9757B312C1C /* TimezonePickerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimezonePickerProtocol.swift; sourceTree = "<group>"; };
+		D68935E1CE16CD22C207BFB67F275459 /* TimezonePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimezonePicker-dummy.m"; sourceTree = "<group>"; };
 		E44F67B3A4E91A47D471DB1F7324E460 /* Pods-TimezonePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimezonePicker_Example.modulemap"; sourceTree = "<group>"; };
-		E5F42560C2D32E0FAC57943EB715D57C /* TimezonePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimezonePicker.xcconfig; sourceTree = "<group>"; };
 		F372FF9DC5C3591279266E10DFE9E5A0 /* Pods-TimezonePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimezonePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F3F2F8E5548B075AD06D32C3F922F5E8 /* Pods_TimezonePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimezonePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F45F1908757381A5FC3C5079687519 /* Pods-TimezonePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimezonePicker_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -75,39 +75,41 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07794372BA84EC379F693C35E0AF9B3E /* Frameworks */ = {
+		10FB38348B539E606CB03FABA922379E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5794C60A3B573D9F8EF53F11BD94A801 /* Foundation.framework in Frameworks */,
+				7FC8AA60A6BA0A5D2A79F3C706EF5DAC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B12CBBBA7E70577680620386951BAC0 /* Frameworks */ = {
+		5F3FFC935F08325F804459C9796600E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0FA5BD7370497D824C218A64D47455A /* Foundation.framework in Frameworks */,
+				A99B1993B62344D72AC8DAC7837F18B8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66DB738F3CE567432FC641C9FF9BF0C7 /* Frameworks */ = {
+		AB92C508111E581188B47A216EAD523B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71EB55D3EF3577893609C5A56B59CBD7 /* Foundation.framework in Frameworks */,
+				AB1F7ECA96DA83060245CF0C81EC0AD3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BA2C25B58FC5C24C63D47825146D65B /* Views */ = {
+		1D102DC2206335CF2340520B2CF8E661 /* TimezonePicker */ = {
 			isa = PBXGroup;
 			children = (
-				432BC0F442C69CF15CBD43E8E14F3941 /* TimezonePickerCell.swift */,
+				E14BE03BB9E40E00B82976D9DEFFD0DB /* Support Files */,
+				535940E21AB24D8A3C37D4EC6AD16B31 /* TimezonePicker */,
 			);
-			path = Views;
+			name = TimezonePicker;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -116,16 +118,6 @@
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		44722C6267AB873944A21EB29AC7E402 /* TimezonePicker */ = {
-			isa = PBXGroup;
-			children = (
-				7A82A7373329C656C9ED26750A141D7F /* Support Files */,
-				7345147645F2A3FAB388C3C14D5E124D /* TimezonePicker */,
-			);
-			name = TimezonePicker;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		5227ADF5696116122267819A3D926ABF /* Pods-TimezonePicker_Tests */ = {
@@ -146,46 +138,20 @@
 			path = "Target Support Files/Pods-TimezonePicker_Tests";
 			sourceTree = "<group>";
 		};
-		7345147645F2A3FAB388C3C14D5E124D /* TimezonePicker */ = {
+		535940E21AB24D8A3C37D4EC6AD16B31 /* TimezonePicker */ = {
 			isa = PBXGroup;
 			children = (
-				781C12FCA0F89565ACDB965C36F4BD00 /* Extensions */,
-				8D94B16B418387D05BCA46DDE0B9E16E /* Nibs */,
-				7BF6B2205BEB148540C47BE2DD20A40A /* Protocols */,
-				E87E49FB51F117CEE83C314B730CDFDA /* ViewControllers */,
-				0BA2C25B58FC5C24C63D47825146D65B /* Views */,
+				C6D5108692A99AC4F2DB713F44CBB7DE /* Classes */,
 			);
 			path = TimezonePicker;
 			sourceTree = "<group>";
 		};
-		781C12FCA0F89565ACDB965C36F4BD00 /* Extensions */ = {
+		7266C03504946C211558A86CF273BD72 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				AE500E7079FF311B112F799D684B781F /* TimezoneExtensions.swift */,
+				6A90E2A4994EB5D0E461CCB66E096561 /* TimezoneExtensions.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		7A82A7373329C656C9ED26750A141D7F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				763E24562383171407B95A8350BA54CB /* Info.plist */,
-				6849C71FF6736D94681645B664BE537B /* TimezonePicker.modulemap */,
-				E5F42560C2D32E0FAC57943EB715D57C /* TimezonePicker.xcconfig */,
-				ADB89B7D39435187F2C540B6371C9FAA /* TimezonePicker-dummy.m */,
-				AA53BB96831E9843E1060FE9B85E615D /* TimezonePicker-prefix.pch */,
-				3B1EDC0EC5841B26C2B9F8192C7D3BAE /* TimezonePicker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TimezonePicker";
-			sourceTree = "<group>";
-		};
-		7BF6B2205BEB148540C47BE2DD20A40A /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				93F80A04641A103DA2357FCC07D38795 /* TimezonePickerProtocol.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -209,13 +175,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8D94B16B418387D05BCA46DDE0B9E16E /* Nibs */ = {
+		9880D7DA076FC3CE31ADC797CF0518FB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				15BA997531C4141CF0EB6FACDEB2E34B /* TimezonePickerCell.xib */,
-				5A5CE72A8400DB3725318BA2B25B178E /* TimezonePickerViewController.xib */,
+				2D2557F6394143002F7738E90F47AA59 /* TimezonePickerCell.swift */,
 			);
-			path = Nibs;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A8447BB4F2415B5AA6389E0077762A10 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3159A74E1A8B75315AC7C544F4BB786F /* TimezonePickerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B82F0964ECE84DF00B19B7019C319375 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D417CD2247559F443562F9757B312C1C /* TimezonePickerProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -224,6 +205,32 @@
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6D5108692A99AC4F2DB713F44CBB7DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7266C03504946C211558A86CF273BD72 /* Extensions */,
+				FB08B24FA82D000F080260188160075B /* Nibs */,
+				B82F0964ECE84DF00B19B7019C319375 /* Protocols */,
+				A8447BB4F2415B5AA6389E0077762A10 /* ViewControllers */,
+				9880D7DA076FC3CE31ADC797CF0518FB /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E14BE03BB9E40E00B82976D9DEFFD0DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8157CED2B67EECDCB1CC143B722E3AF3 /* Info.plist */,
+				21F59442A795F1E187D6902651C80579 /* TimezonePicker.modulemap */,
+				937EC6C82647506209B008DC95D7E8EF /* TimezonePicker.xcconfig */,
+				D68935E1CE16CD22C207BFB67F275459 /* TimezonePicker-dummy.m */,
+				B027EDB9912EE0A7775901A8089A62D0 /* TimezonePicker-prefix.pch */,
+				17631ED7E62EEB153AE1248ACE74E0D7 /* TimezonePicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TimezonePicker";
 			sourceTree = "<group>";
 		};
 		E1E3DF3D0744EB4EBF76A2EA52132EDB /* Pods-TimezonePicker_Example */ = {
@@ -244,18 +251,10 @@
 			path = "Target Support Files/Pods-TimezonePicker_Example";
 			sourceTree = "<group>";
 		};
-		E87E49FB51F117CEE83C314B730CDFDA /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				301B295C47C5F6E2202DD19A01F9B522 /* TimezonePickerViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		EF19D628DF4253403545D28F7F55030E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				44722C6267AB873944A21EB29AC7E402 /* TimezonePicker */,
+				1D102DC2206335CF2340520B2CF8E661 /* TimezonePicker */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -269,43 +268,52 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		FB08B24FA82D000F080260188160075B /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				1495C98FBE003016CBFA8AEC29028BD9 /* TimezonePickerCell.xib */,
+				A2931F2C9606E59256BA42700ED676E4 /* TimezonePickerViewController.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		052F872A3FC9A736B8B2A96FB472CE31 /* Headers */ = {
+		1F6B470C8D2F40DA7353C286EF29D123 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0375780F9F1C03639AB9420017ACCE54 /* TimezonePicker-umbrella.h in Headers */,
+				B3962FD00AF355BC824F6187D2D4A39B /* Pods-TimezonePicker_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		416BA68C03C6E8C546539D4C7096A5C4 /* Headers */ = {
+		229E3D055E47A912C19EE01C12A5FC09 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7777B53B65CCCA13FE05C858796D5E /* Pods-TimezonePicker_Example-umbrella.h in Headers */,
+				1FBEE8D1095ACDA1736912E2A2913354 /* TimezonePicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE3CE9BA02B75672CE27C8340A2561CA /* Headers */ = {
+		9CB04193DBABE7FC6BAF7B0E4412FAB1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15A85D64A5FEB24732D056D2C5A5BE2B /* Pods-TimezonePicker_Tests-umbrella.h in Headers */,
+				D93E2EC23BDA542DD72B8E3D2B90077D /* Pods-TimezonePicker_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		26E0DE74A09CED4D8E914F69438B6205 /* TimezonePicker */ = {
+		285643B10F03300859D6CEE70F2A96D6 /* TimezonePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BB9EEB1B60AB38FEA221016CF123E31 /* Build configuration list for PBXNativeTarget "TimezonePicker" */;
+			buildConfigurationList = 03696BEBEFD061CBA33A2C138B7EFCCE /* Build configuration list for PBXNativeTarget "TimezonePicker" */;
 			buildPhases = (
-				5ADDEED2740AB6F3F1FA16FCE130F9AD /* Sources */,
-				66DB738F3CE567432FC641C9FF9BF0C7 /* Frameworks */,
-				052F872A3FC9A736B8B2A96FB472CE31 /* Headers */,
+				3365AB1C0C400C7A185233AF86D5B93D /* Sources */,
+				10FB38348B539E606CB03FABA922379E /* Frameworks */,
+				229E3D055E47A912C19EE01C12A5FC09 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -316,35 +324,35 @@
 			productReference = CA1E7D65A1AD430C8932C7A3108AE7CA /* TimezonePicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CF57788AFA4BBAA91EDEEACC1C542F20 /* Pods-TimezonePicker_Tests */ = {
+		9C3C9DF3391D8E70E832D18198A82F1A /* Pods-TimezonePicker_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7E618321F80AEABBF455FEC1B2CFEF4 /* Build configuration list for PBXNativeTarget "Pods-TimezonePicker_Tests" */;
+			buildConfigurationList = 4912370B483AA8B626C4226BD8D83BD5 /* Build configuration list for PBXNativeTarget "Pods-TimezonePicker_Tests" */;
 			buildPhases = (
-				CDB8399D464B25CCC718775F95C69D07 /* Sources */,
-				0B12CBBBA7E70577680620386951BAC0 /* Frameworks */,
-				EE3CE9BA02B75672CE27C8340A2561CA /* Headers */,
+				DD9D63CCDB630E3968F66CADF9B1F221 /* Sources */,
+				5F3FFC935F08325F804459C9796600E2 /* Frameworks */,
+				1F6B470C8D2F40DA7353C286EF29D123 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4535CC0E4D6677B62398718493443036 /* PBXTargetDependency */,
 			);
 			name = "Pods-TimezonePicker_Tests";
 			productName = "Pods-TimezonePicker_Tests";
 			productReference = 9E0A8B722AD38C39B3CBA38C390C0B01 /* Pods_TimezonePicker_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CF92CC95B421FAA1A96D1A5A116FBD24 /* Pods-TimezonePicker_Example */ = {
+		E22AFB70724AE5560823FC9A13E7523F /* Pods-TimezonePicker_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AAEE660CF92C011B6BC96B815A45FAF /* Build configuration list for PBXNativeTarget "Pods-TimezonePicker_Example" */;
+			buildConfigurationList = F036F8DF6E53AB76AE1F412155A5A153 /* Build configuration list for PBXNativeTarget "Pods-TimezonePicker_Example" */;
 			buildPhases = (
-				27A120DA2551C4D39AE3F202E944A6E1 /* Sources */,
-				07794372BA84EC379F693C35E0AF9B3E /* Frameworks */,
-				416BA68C03C6E8C546539D4C7096A5C4 /* Headers */,
+				60466BFA4070DDF23A766B918971BD7D /* Sources */,
+				AB92C508111E581188B47A216EAD523B /* Frameworks */,
+				9CB04193DBABE7FC6BAF7B0E4412FAB1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9D67D761E6F05BBCA2E4E51DA7150FDB /* PBXTargetDependency */,
 			);
 			name = "Pods-TimezonePicker_Example";
 			productName = "Pods-TimezonePicker_Example";
@@ -372,89 +380,56 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF92CC95B421FAA1A96D1A5A116FBD24 /* Pods-TimezonePicker_Example */,
-				CF57788AFA4BBAA91EDEEACC1C542F20 /* Pods-TimezonePicker_Tests */,
-				26E0DE74A09CED4D8E914F69438B6205 /* TimezonePicker */,
+				E22AFB70724AE5560823FC9A13E7523F /* Pods-TimezonePicker_Example */,
+				9C3C9DF3391D8E70E832D18198A82F1A /* Pods-TimezonePicker_Tests */,
+				285643B10F03300859D6CEE70F2A96D6 /* TimezonePicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		27A120DA2551C4D39AE3F202E944A6E1 /* Sources */ = {
+		3365AB1C0C400C7A185233AF86D5B93D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03354A561D9BEACD85009C6FF00003A8 /* Pods-TimezonePicker_Example-dummy.m in Sources */,
+				F0DC8FE25E555C67B80043F5F18C9C5A /* TimezoneExtensions.swift in Sources */,
+				3B69DFB7E91B5DB5C99F917130E3DE88 /* TimezonePicker-dummy.m in Sources */,
+				63E2B2B9243B8D3F154287A39670B610 /* TimezonePickerCell.swift in Sources */,
+				C3460F145C81109B9F2577134EFF86D0 /* TimezonePickerCell.xib in Sources */,
+				CC5140295C05E0672253D9215DB602A5 /* TimezonePickerProtocol.swift in Sources */,
+				94BF3CBB90F245D448AA858E47F75708 /* TimezonePickerViewController.swift in Sources */,
+				40FF77F9AE37216455A83C1A27330D32 /* TimezonePickerViewController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5ADDEED2740AB6F3F1FA16FCE130F9AD /* Sources */ = {
+		60466BFA4070DDF23A766B918971BD7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133276108C6D38C007AF888CB506A78C /* TimezoneExtensions.swift in Sources */,
-				6A253F42E4035D2812981BD0A81BA647 /* TimezonePicker-dummy.m in Sources */,
-				407D372F43DD8CAE8C426EE5B10A4E9C /* TimezonePickerCell.swift in Sources */,
-				AD72F4B9B4DE4EA9DCF0968C16C4E6A1 /* TimezonePickerCell.xib in Sources */,
-				0EBB7149BA9BBAA18D8E31650911AC34 /* TimezonePickerProtocol.swift in Sources */,
-				486648A636FAB8D6604249C7F9ED3F56 /* TimezonePickerViewController.swift in Sources */,
-				52B7C15EC7B18B3D78F985CFAE054502 /* TimezonePickerViewController.xib in Sources */,
+				BD0F2105B10A7135E51E4457FDEE39B3 /* Pods-TimezonePicker_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDB8399D464B25CCC718775F95C69D07 /* Sources */ = {
+		DD9D63CCDB630E3968F66CADF9B1F221 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63DCCE013959A60077C990A9801CBD96 /* Pods-TimezonePicker_Tests-dummy.m in Sources */,
+				A6AC7C9EC5B83F74C4134268B4D2EC03 /* Pods-TimezonePicker_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4535CC0E4D6677B62398718493443036 /* PBXTargetDependency */ = {
+		9D67D761E6F05BBCA2E4E51DA7150FDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TimezonePicker;
-			target = 26E0DE74A09CED4D8E914F69438B6205 /* TimezonePicker */;
-			targetProxy = 5508BBB41CF2B8F74A8326558A5AC19F /* PBXContainerItemProxy */;
+			target = 285643B10F03300859D6CEE70F2A96D6 /* TimezonePicker */;
+			targetProxy = 96E86F29BDE2CCFFD8D56F62C91F8A18 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		045B08501772560BE76DDB5722C3B34D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C797995849D0C21F685588DFD72E6DA /* Pods-TimezonePicker_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TimezonePicker_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TimezonePicker_Example/Pods-TimezonePicker_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TimezonePicker_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -493,72 +468,13 @@
 			};
 			name = Release;
 		};
-		2A2D3940A4CCEFB3CA1047BEC1290F03 /* Release */ = {
+		1162771B8E8ACC6F8E52F3DE4F6F5AA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F42560C2D32E0FAC57943EB715D57C /* TimezonePicker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TimezonePicker/TimezonePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TimezonePicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TimezonePicker/TimezonePicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TimezonePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3847DB024883892351DF209673379D4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F42560C2D32E0FAC57943EB715D57C /* TimezonePicker.xcconfig */;
+			baseConfigurationReference = 7FAD19B5B8FB0A0B51B40EC16E2CD09C /* Pods-TimezonePicker_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TimezonePicker/TimezonePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TimezonePicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TimezonePicker/TimezonePicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TimezonePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7C59AD11D3FEEC51F4352FFE618477C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B60174EEE75388ADC93E07FA2FE6D9D /* Pods-TimezonePicker_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -571,7 +487,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TimezonePicker_Tests/Pods-TimezonePicker_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -583,9 +499,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		8CE17730F545C5831CD75CC93354AF76 /* Release */ = {
+		3B71DF3DEFCAD1925ACD3FDDBC1BB7A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54381766C369950EBCF1C5E300BF45ED /* Pods-TimezonePicker_Example.release.xcconfig */;
 			buildSettings = {
@@ -618,13 +534,47 @@
 			};
 			name = Release;
 		};
-		9BBF0553FAB4BC0DAA1F87B2A0E93FA7 /* Debug */ = {
+		5F02A1F69E487377D9F7D9FB10B1634C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FAD19B5B8FB0A0B51B40EC16E2CD09C /* Pods-TimezonePicker_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2C797995849D0C21F685588DFD72E6DA /* Pods-TimezonePicker_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TimezonePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimezonePicker_Example/Pods-TimezonePicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TimezonePicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8364DBD79B8001B0ECD3A22110284508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B60174EEE75388ADC93E07FA2FE6D9D /* Pods-TimezonePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -637,7 +587,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TimezonePicker_Tests/Pods-TimezonePicker_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -645,12 +595,40 @@
 				PRODUCT_NAME = Pods_TimezonePicker_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		BD753B7847B6B45EAA03F87378CA5CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937EC6C82647506209B008DC95D7E8EF /* TimezonePicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TimezonePicker/TimezonePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimezonePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TimezonePicker/TimezonePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TimezonePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -694,9 +672,48 @@
 			};
 			name = Debug;
 		};
+		DC982F1C3B58AF5A0236F41BA6DD3B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937EC6C82647506209B008DC95D7E8EF /* TimezonePicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TimezonePicker/TimezonePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimezonePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TimezonePicker/TimezonePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TimezonePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		03696BEBEFD061CBA33A2C138B7EFCCE /* Build configuration list for PBXNativeTarget "TimezonePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC982F1C3B58AF5A0236F41BA6DD3B0B /* Debug */,
+				BD753B7847B6B45EAA03F87378CA5CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -706,29 +723,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AAEE660CF92C011B6BC96B815A45FAF /* Build configuration list for PBXNativeTarget "Pods-TimezonePicker_Example" */ = {
+		4912370B483AA8B626C4226BD8D83BD5 /* Build configuration list for PBXNativeTarget "Pods-TimezonePicker_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				045B08501772560BE76DDB5722C3B34D /* Debug */,
-				8CE17730F545C5831CD75CC93354AF76 /* Release */,
+				1162771B8E8ACC6F8E52F3DE4F6F5AA7 /* Debug */,
+				8364DBD79B8001B0ECD3A22110284508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BB9EEB1B60AB38FEA221016CF123E31 /* Build configuration list for PBXNativeTarget "TimezonePicker" */ = {
+		F036F8DF6E53AB76AE1F412155A5A153 /* Build configuration list for PBXNativeTarget "Pods-TimezonePicker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3847DB024883892351DF209673379D4B /* Debug */,
-				2A2D3940A4CCEFB3CA1047BEC1290F03 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D7E618321F80AEABBF455FEC1B2CFEF4 /* Build configuration list for PBXNativeTarget "Pods-TimezonePicker_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9BBF0553FAB4BC0DAA1F87B2A0E93FA7 /* Debug */,
-				7C59AD11D3FEEC51F4352FFE618477C2 /* Release */,
+				5F02A1F69E487377D9F7D9FB10B1634C /* Debug */,
+				3B71DF3DEFCAD1925ACD3FDDBC1BB7A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

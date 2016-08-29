@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TimezonePicker/**/*'
+  s.source_files = 'TimezonePicker/Classes/**/*'
 
   # s.resource_bundles = {
   #   'TimezonePicker' => ['TimezonePicker/Assets/*.png']
