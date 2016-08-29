@@ -1,0 +1,6 @@
+framework module TimezonePicker {
+  umbrella header "TimezonePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

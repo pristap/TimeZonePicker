@@ -1,0 +1,22 @@
+{
+  "name": "TimezonePicker",
+  "version": "0.1.0",
+  "summary": "A short description of TimezonePicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TimezonePicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "johntrapristap": "johntra@pristap.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TimezonePicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TimezonePicker/**/*"
+}

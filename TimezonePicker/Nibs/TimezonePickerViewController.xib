@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimezonePickerViewController" customModule="TimezonePicker" customModuleProvider="target">
+            <connections>
+                <outlet property="searchBar" destination="s4h-Od-uXb" id="sds-Ri-ZAx"/>
+                <outlet property="timezoneTableView" destination="2Nq-MA-2UV" id="smW-0Q-g45"/>
+                <outlet property="view" destination="iN0-l3-epB" id="rAK-1Q-SbI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2Nq-MA-2UV">
+                    <rect key="frame" x="0.0" y="108" width="320" height="452"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="s4h-Od-uXb">
+                    <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="s4h-Od-uXb" secondAttribute="trailing" id="5B1-PV-m96"/>
+                <constraint firstItem="2Nq-MA-2UV" firstAttribute="top" secondItem="s4h-Od-uXb" secondAttribute="bottom" symbolic="YES" id="7Rt-Gh-kLB"/>
+                <constraint firstItem="s4h-Od-uXb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="Yyx-nZ-2K9"/>
+                <constraint firstAttribute="bottomMargin" secondItem="2Nq-MA-2UV" secondAttribute="bottom" id="cv9-fU-NFv"/>
+                <constraint firstItem="2Nq-MA-2UV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="g1F-gR-FRg"/>
+                <constraint firstAttribute="trailing" secondItem="2Nq-MA-2UV" secondAttribute="trailing" id="i0D-0n-Xso"/>
+                <constraint firstItem="s4h-Od-uXb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="i6c-cD-3xU"/>
+            </constraints>
+            <point key="canvasLocation" x="-77" y="258"/>
+        </view>
+    </objects>
+</document>
